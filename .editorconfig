@@ -1,0 +1,24 @@
+root = true
+
+[*]
+insert_final_newline = true
+
+[*.{js,ts}]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+quote_type = single
+
+[*.{md,markdown}]
+indent_size = 4
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+[*.json]
+indent_size = 4
+insert_final_newline = false
+
+[Makefile]
+indent_style = tab
